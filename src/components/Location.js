@@ -16,13 +16,13 @@ export default function LocationSection() {
                 {/* Google Map Embed */}
                 <div className="w-full max-w-5xl mx-auto aspect-video">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81816.20911271714!2d54.98944762273478!3d25.00691894194119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f10f22909222f%3A0xeee8c736a7748d68!2sPalm%20Jebel%20Ali!5e0!3m2!1sen!2sin!4v1758785328493!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.2293347270215!2d55.212766599999995!3d24.9923221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f71000de61009%3A0x367815f37a37ac44!2sOasis%20by%20Emaar%20(Under%20Construction)!5e0!3m2!1sen!2sin!4v1760011018060!5m2!1sen!2sin"
                         className="w-full h-full rounded-lg shadow-lg"
                         style={{ border: 0 }}
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="Palm Jebel Ali Map"
+                        title="Emaar Oasis Map"
                     ></iframe>
                 </div>
 

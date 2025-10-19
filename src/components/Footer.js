@@ -31,12 +31,13 @@ const Footer = () => {
     if (!consentChecked) return;
     const formData = {
       name: e.target.name.value,
+      email: e.target.email.value,
     };
     const result = await submitLead(formData, e?.target);
     if (result) {
       e.target.reset();
       setConsentChecked(false);
-      navigate("/thankyou"); 
+      navigate("/thankyou.html"); 
     }
   };
 
